@@ -1,0 +1,53 @@
+<html>
+<head>
+	<script type="text/javascript" src="ui.js"></script>
+	<script type="text/javascript" src="data_variables.js"></script>
+	<script type="text/javascript" src="serpent.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body onload="init_ui();" >
+<div class="wrapper">
+	<div class="data">
+		<div class="data-key-area">
+			<div class="info">Key:</div>
+			<div class="info info-bit-number">0 bit</div>
+			<textarea cols="100" rows="1" class="data-key"></textarea>
+		</div>
+		<div class="data-input-area">
+			<div class="info">Input:</div>
+			<div class="info info-bit-number">0 bit</div>
+			<textarea cols="100" rows="1" class="data-input"></textarea>
+		</div>
+		<div class="data-result-area">
+			<div class="info">Result:</div>
+			<div class="button button-swap-input-result"></div>
+			<textarea cols="100" rows="1" class="data-result" readonly=true ></textarea>
+		</div>
+	</div>
+	
+
+
+	<div class="buttons">
+		<div class="button button-start-algorithm">Run</div>
+		<div class="button button-set-mode">Mode: Encryption</div>
+	</div>
+	
+
+
+	<div class="files">
+		<div class="file-input-area">
+			<div class="info">Plaintext upload</div>
+			<input type="file" class="file-input"/>
+		</div>
+		<div class="file-key-area">
+			<div class="info">Key upload</div>
+			<input type="file" class="file-key"/>
+		</div>
+		<div class="file-download-area">
+			<a class="button button-download" download="result.txt">Download</a>
+		</div>
+	</div>
+</div>
+</body>
+</html>

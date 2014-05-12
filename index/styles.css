@@ -1,0 +1,116 @@
+*                               { font-family: Tahoma }
+
+body                            { background: #ecf0f1 }
+
+textarea                        {
+                                    width: 100%; max-width: 50vw; height: 25px;
+                                    padding-top: 4px;
+                                    resize: none
+                                }
+
+.wrapper                        {
+                                    position: absolute;
+                                    top: 0; right: 0; left: 0; bottom: 0;
+                                    width: 40%; height: 50%;
+                                    margin: auto
+                                }
+
+.wrapper > div                  {
+                                    width: 100%;
+                                    margin-bottom: 5%
+                                }
+
+.data>div                       { margin-bottom: 2.5% }
+
+.files                          { margin-top: 10% }
+
+.files .file-download-area      {
+                                    float: right;
+                                    width: 8vw
+                                }
+
+.files>div                      {
+                                    float: left;
+                                    width: 33%
+                                }
+
+a                               {
+                                    display: block;
+                                    color: black;
+                                    text-decoration: none
+                                }
+
+a:visited                       {
+                                    float: right;
+                                    color: black
+                                }
+
+.button-start-algorithm,
+.button-download,
+.button-set-mode                {
+                                    display: table-cell;
+                                    width: 9vw; height: 3vw;
+                                    color: white;
+                                    font-size: 1.2vw;
+                                    text-align: center;
+                                    vertical-align: middle;
+                                    background: #3498db;
+                                }
+
+.button-start-algorithm:hover   { background: #2980b9 }
+
+
+.data-result-area               { position: relative }
+
+.data-result-area .info         {
+                                    float: left;
+                                    width: 40%
+                                }
+
+.button-set-mode                {
+                                    float: left;
+                                    height: 1.2vw;
+                                    font-size: 1vw;
+                                    background: #bdc3c7
+                                }
+
+.button-download                { background: #bdc3c7 }
+
+.button-swap-input-result       {
+                                    position: absolute;
+                                    top: 60%; right: 1%;
+                                    height: 30%;
+                                    border-radius: 100%;
+                                    background: #bdc3c7;
+                                    -webkit-border-radius: 100%;
+                                    -moz-border-radius: 100%;
+                                }
+
+.info                           {
+                                    float: left;
+                                    color: #95a5a6
+                                }
+
+.button-set-mode:hover,
+.button-swap-input-result:hover,
+.button-download:hover          { background: #2ecc71 }
+
+.info-bit-number                { float: right }
+
+.info,
+.button                         {
+                                    user-select: none;
+                                    nowhitespace: afterproperty;
+                                    nowhitespace: afterproperty;
+                                    nowhitespace: afterproperty;
+                                    cursor: default;
+                                    /* IE10+ */
+                                    /* Firefox */
+                                    /* Chrome/Safari */
+                                    -webkit-user-select: none;
+                                    -o-user-select: none;
+                                    -ms-user-select: none;
+                                    -moz-user-select: none;
+                                }
+
+.button                         { cursor: pointer }
